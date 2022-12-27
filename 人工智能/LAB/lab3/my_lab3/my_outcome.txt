@@ -1,0 +1,10 @@
+P(Burglar | Alarm=true)
+0.00804 0.99196
+P(Alarm | Earthquake=true, Burglar=true)
+0.95 0.05
+P(Burglar | John=true, Mary=false)
+0.00342 0.99658
+P(Burglar | John=true, Mary=false)
+0.00342 0.99658
+P(Burglar | Alarm=true, Earthquake=true)
+0.00327 0.99673

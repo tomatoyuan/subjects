@@ -1,0 +1,14 @@
+1. 安装VS CODE
+2. 安装anaconda3
+3.打开vs code的Command Palette，然后选择Python：Select Interpreter 【view>Command Palette>Select Interpreter】
+    //"python.defaultInterpreterPath": "C:\\Users\\yongf\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.defaultInterpreterPath":"C:\\Users\\yongf\\anaconda3\\python.exe",
+4. 命令行输入
+> conda activate anaconda3
+> conda info --envs
+> conda create -n myenv python=3.7 pandas jupyter seaborn scikit-learn
+> conda activate myenv
+5. 新建python文件运行下面代码
+import sklearn
+print(sklearn.__version__)
+输出：1.0.2（类似信息）

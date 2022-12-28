@@ -120,6 +120,8 @@ $$
 t_{min} = \frac{d_{max}}{v}=\frac{2km}{200000km/s}=10us
 $$
 最长检测到冲突的时间为
+
+<br>
 $$
 t_{max}=\frac{2*d_{max}}{v} =\frac{2*2km}{200000km/s}=20us
 $$

@@ -12,9 +12,9 @@
 
 **解：**
 
-如果**local DNS server**上有缓存，只需一次查询即可，最短时间为 **1**RTTh
+如果 **local DNS server** 上有缓存，只需一次查询即可，最短时间为 **1** RTTh
 
-如果**local DNS server**没有缓存，向**local DNS server**查询一次，向**root DNS server**查询一次，向**TLD DNS server**查询一次，再分别查询**.com**和**.cn**对应的服务器，最长时间为 **5**RTTh
+如果 **local DNS server** 没有缓存，向 **local DNS server** 查询一次，向 **root DNS server** 查询一次，向 **TLD DNS server** 查询一次，再分别查询 **.com** 和 **.cn** 对应的服务器，最长时间为 **5** RTTh
 
 
 

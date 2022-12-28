@@ -100,6 +100,8 @@ $$
 
 > <font color=green size=4>2).该TCP连接的平均窗口尺寸（以TCP段数计）和平均吞吐量（以bps计）是多少？</font>
 
+<br>
+
 **‏解：**
 
 <br>

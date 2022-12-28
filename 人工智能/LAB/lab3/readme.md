@@ -139,9 +139,13 @@ $$
 P(A,B)= P(A|B)*P(B)
 $$
 推广一下
+
+<br>
 $$
 P(X_1,X_2,...,X_n) = P(X_1|X_2,...,X_n)*P(X_2|X_3,..,X_n)*...*P(X_n)
 $$
+<br>
+
 当$X_1,X_2,X_3,...,X_n$之间相互影响时，有上式
 
 如果$X_1$和$X_2$独立，那么上面得公式中
@@ -161,18 +165,28 @@ Bayes网络就是一个有向无环图，每个节点被指向它的节点影响
 这样求解某个节点事件的发生概率就变成了，求在其直接父节点发生的情况下，该节点事件发生的概率
 
 即Bayes网络中的事件联合概率分布可以使用如下方法求解
+
+<br>
 $$
 P(A,B,C,..) = P(A|A's\space fathers)*P(B|B's\space fathers)*P(C|C's\space fathers)*...
 $$
 于是Bayes公式可以简化为
+
+<br>
 $$
 P(A|B) = \frac{P(B|A)*P(A)}{P(B)} = \frac{P(A,B)}{P(B)} = \frac{P(A,B)}{P(B|A)+P(B|\neg A)}
 $$
 <font color=green>目标式可以转化为</font>
+
+<br>
 $$
 P(X|A,B)=\frac{P(X,A,B)}{P(A,B)} = \frac{P(X|X's\space fathers)*P(A|A's\space fathers)*P(B|B's\space fathers)}{P(A|A's\space fathers)*P(B|B's\space fathers)}
 $$
+<br>
+
 如果网络中还有事件$C、D$，计算联合概率时，带入一同计算即可（由于这里建立的CPT表是一张包含所有组合情况的表）
+
+<br>
 $$
 P(X|A,B)=\frac{P(X,A,B,C,D)}{P(A,B,C,D)}+\frac{P(X,A,B,\neg C,D)}{P(A,B,\neg C,D)}+\frac{P(X,A,B,C,\neg D)}{P(A,B,C,\neg D)}+\frac{P(X,A,B,\neg C,\neg D)}{P(A,B,\neg C,\neg D)}
 $$

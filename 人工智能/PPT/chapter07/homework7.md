@@ -1,5 +1,17 @@
 [TOC]
 
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 无监督学习
 
 ## 学习
@@ -141,9 +153,15 @@ $$
 	\end{matrix}
 \right ]
 $$
+
+
 <font color=green>特征向量本身就是一个族，所以特征向量中 A = kA</font>
 
+
+
 上式乘个-1就和目标特征向量一致了
+
+
 $$
 \left [
 	\begin{matrix}

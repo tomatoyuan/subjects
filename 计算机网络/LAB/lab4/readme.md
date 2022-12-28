@@ -9,9 +9,9 @@
 3)  利用 Wireshark 分析 TCP 协议
 4)  利用 Wireshark 分析 IP 协议
 5)  利用 Wireshark 分析 Ethernet 数据帧 
-选做内容：
-a)  利用 Wireshark 分析 DNS 协议
-b)  利用 Wireshark 分析 UDP 协议
+选做内容：<br>
+a)  利用 Wireshark 分析 DNS 协议<br>
+b)  利用 Wireshark 分析 UDP 协议<br>
 c)  利用 Wireshark 分析 ARP 协议
 
 ## 实验过程及结果

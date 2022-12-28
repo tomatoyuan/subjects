@@ -77,7 +77,7 @@
 
 > <font color=green size=4>2).如果对上述三个协议，超时时间比5RTT长得多，那么哪个协议将在最短的时间间隔内成功交付5个报文段？</font>
 
-**解：**TCP用时更短，由于TCP具有快速重传机制，可以再定时器超时之前就重传。
+**解：** TCP用时更短，由于TCP具有快速重传机制，可以再定时器超时之前就重传。
 
 
 
@@ -86,6 +86,8 @@
 > <font color=green size=4>1).该TCP连接能够获得的最大窗口尺寸（以TCP段数计）是多少？</font>
 
 **‏解：**
+
+<br>
 $$
 WindowSize*MISS/RTT = 8Mbps
 $$
@@ -100,7 +102,11 @@ $$
 
 **‏解：**
 
+<br>
+
 忽略慢启动，总是处于拥塞避免阶段，数据传输的窗口大小将在$[0.5*WindowSize,WindowSize]$之间变化。
+
+<br>
 $$
 \overline{WindowSize} = (0.5*WindowSize + WindowSize) / 2 = 0.75*WindowSize=75
 $$

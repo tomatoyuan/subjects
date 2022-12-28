@@ -141,9 +141,15 @@ $$
 	\end{matrix}
 \right ]
 $$
+
+
 <font color=green>特征向量本身就是一个族，所以特征向量中 A = kA</font>
 
+
+
 上式乘个-1就和目标特征向量一致了
+
+
 $$
 \left [
 	\begin{matrix}

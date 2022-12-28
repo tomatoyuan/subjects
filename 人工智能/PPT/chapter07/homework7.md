@@ -1,16 +1,5 @@
 [TOC]
 
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
 
 # 无监督学习
 
@@ -140,7 +129,7 @@ $$
 
 6. Y=PX 即为降维到 k 维后的数据。
 
-降维后的数据是：
+降维后的数据是：<br>
 $$
 \left [
 	\begin{matrix}
@@ -154,12 +143,11 @@ $$
 \right ]
 $$
 
-
-<font color=green>特征向量本身就是一个族，所以特征向量中 A = kA</font>
-
+<br><font color=green>特征向量本身就是一个族，所以特征向量中 A = kA</font>
 
 
-上式乘个-1就和目标特征向量一致了
+
+上式乘个-1就和目标特征向量一致了<br>
 
 
 $$

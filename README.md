@@ -6,6 +6,8 @@
 
 由于 `github` 的公式渲染功能稍逊，建议安装插件 `MathJax Plugin for Github` 后再浏览，避免出现乱码问题。
 
+>   安装完插件，每次浏览 markdown （即 `.md` 后缀的）文件时，记得刷新一下，不然公式还是没有渲染。
+
 安装参考文章链接如下（文章内第 3 个）：
 
 https://www.awellfrog.cc/p/4fef4099.html#3-mathjax-plugin-for-github

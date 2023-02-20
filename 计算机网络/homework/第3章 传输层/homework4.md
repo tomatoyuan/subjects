@@ -116,7 +116,7 @@ $$
 $$
 
 $$
-\overline{平均吞吐量}=\overline{WindowSize}*MISS/RTT=75*1500*8/0.15=6Mbps
+\overline{平均吞吐量}=\overline{WindowSize}*MSS/RTT=75*1500*8/0.15=6Mbps
 $$
 
 > <font color=green size=4>3).该TCP连接的拥塞窗口从发生丢包到恢复到最大窗口尺寸要经历多长时间？</font>

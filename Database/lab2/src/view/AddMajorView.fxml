@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AddMajorView">
+   <children>
+      <TextField fx:id="major_name" layoutX="259.0" layoutY="94.0" prefHeight="62.0" prefWidth="282.0" />
+      <Button layoutX="124.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="56.0" prefWidth="117.0" text="OK" />
+      <Button layoutX="370.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="56.0" prefWidth="117.0" text="cancel" />
+      <Label layoutX="26.0" layoutY="94.0" prefHeight="62.0" prefWidth="227.0" text="请输入要加入的专业的名字：" />
+   </children>
+</AnchorPane>

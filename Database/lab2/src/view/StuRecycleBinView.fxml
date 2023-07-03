@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.StuRecycleBinView">
+   <children>
+      <SplitPane layoutX="100.0" layoutY="120.0" prefHeight="400.0" prefWidth="719.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="411.0" prefWidth="596.0">
+               <children>
+                  <TableView fx:id="tableView" layoutX="-1.0" prefHeight="398.0" prefWidth="639.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="student_id" prefWidth="114.0" text="学生ID" />
+                      <TableColumn fx:id="student_name" prefWidth="85.0" text="学生名" />
+                        <TableColumn fx:id="apartment_id" prefWidth="54.0" text="公寓ID" />
+                        <TableColumn fx:id="apartment_name" prefWidth="87.0" text="公寓名" />
+                        <TableColumn fx:id="class_id" prefWidth="62.0" text="班级ID" />
+                        <TableColumn fx:id="class_name" prefWidth="116.0" text="班级名" />
+                        <TableColumn fx:id="college_id" prefWidth="75.0" text="学院ID" />
+                        <TableColumn fx:id="college_name" prefWidth="125.0" text="学院名" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

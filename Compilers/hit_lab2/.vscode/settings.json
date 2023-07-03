@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "assert.h": "c",
+        "syntax.tab.h": "c",
+        "treenode.h": "c",
+        "semantic.h": "c",
+        "stdarg.h": "c",
+        "enum.h": "c"
+    }
+}

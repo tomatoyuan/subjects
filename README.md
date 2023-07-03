@@ -24,3 +24,10 @@ https://www.awellfrog.cc/p/4fef4099.html#3-mathjax-plugin-for-github
 
 *   体系结构
     *   非流水单周期 CPU 设计： https://github.com/Awellfrog/Single-Cycle-Processor
+
+## 大三下
+
+*   编译原理（Compilers）
+
+*   数据库（Database）
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="442.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.sample">
+   <children>
+      <HBox layoutX="53.0" layoutY="39.0" prefHeight="330.0" prefWidth="398.0" spacing="50.0" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="39.0">
+         <children>
+            <VBox layoutX="54.0" layoutY="55.0" prefWidth="164.0" spacing="30.0">
+               <children>
+                  <Button fx:id="apartmentButton" layoutX="54.0" layoutY="55.0" mnemonicParsing="false" onAction="#ManageApartment" text="管理公寓信息" />
+                  <Button fx:id="majorButton" layoutX="54.0" layoutY="105.0" mnemonicParsing="false" onAction="#ManageMajor" text="管理专业信息" />
+                  <Button fx:id="leaderButton" layoutX="54.0" layoutY="156.0" mnemonicParsing="false" onAction="#ManageDean" text="管理院长信息" />
+                  <Button fx:id="studentButton" layoutX="54.0" layoutY="207.0" mnemonicParsing="false" onAction="#ManageStudent" text="管理学生信息" />
+                  <Button fx:id="scButton" layoutX="54.0" layoutY="259.0" mnemonicParsing="false" onAction="#ManageSC" text="管理成绩信息" />
+                  <Button fx:id="studentButton1" layoutX="10.0" layoutY="190.0" mnemonicParsing="false" onAction="#ManageDependent" text="管理学生家属信息" />
+                  <Button fx:id="studentButton11" layoutX="10.0" layoutY="310.0" mnemonicParsing="false" onAction="#ManageST" text="查询学生课程" />
+               </children>
+            </VBox>
+            <VBox layoutX="181.0" layoutY="55.0" spacing="30.0">
+               <children>
+                  <Button fx:id="classButton" layoutX="181.0" layoutY="55.0" mnemonicParsing="false" onAction="#ManageClass" text="管理班级信息" />
+                  <Button fx:id="collegeButton" layoutX="181.0" layoutY="105.0" mnemonicParsing="false" onAction="#ManageCollege" text="管理学院信息" />
+                  <Button fx:id="teacherButton" layoutX="181.0" layoutY="156.0" mnemonicParsing="false" onAction="#ManageTeacher" text="管理教师信息" />
+                  <Button fx:id="courseButton1" layoutX="10.0" layoutY="190.0" mnemonicParsing="false" onAction="#ManageStuRecycleBin" text="学生信息回收站" />
+                  <Button fx:id="courseButton" layoutX="181.0" layoutY="207.0" mnemonicParsing="false" onAction="#ManageCourse" text="管理课程信息" />
+                  <Button fx:id="makeUpButton" layoutX="181.0" layoutY="259.0" mnemonicParsing="false" onAction="#ManageClassInfo" text="班级人数视图" />
+                  <Button fx:id="makeUpButton1" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" onAction="#ManageApartmentQuery" text="查询学生宿舍" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

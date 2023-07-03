@@ -31,3 +31,8 @@ https://www.awellfrog.cc/p/4fef4099.html#3-mathjax-plugin-for-github
 
 *   数据库（Database）
 
+*   操作系统（OS）
+
+    实验6还有点问题，实验7和实验8还没写
+
+*   体系结构
